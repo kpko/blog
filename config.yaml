@@ -1,0 +1,35 @@
+baseURL: http://kevinpreller.me
+languageCode: en-us
+title: Kevin Preller
+taxonomies:
+  tag: tags
+  category: categories
+theme: m10c
+params:
+  author: Kevin
+  description: Development, software architecture and design, event sourcing, CQRS
+  avatar: /kpko.jpg
+  social:
+  - icon: github
+    name: My GitHub
+    url: https://github.com/kpko
+  - icon: briefcase
+    name: WMIT Solutions GmbH
+    url: https://wmit.biz
+  style:
+    primaryColor: '#5E81AC'
+    darkestColor: '#2e3440'
+    darkColor: '#3b4252'
+    lightColor: '#d8dee9'
+    lightestColor: '#eceff4'
+menu:
+  main:
+    - identier: blog
+      name: Blog
+      url: '/posts'
+    - identier: tags
+      name: Tags
+      url: '/tags'
+markup:
+  highlight:
+    style: nord
